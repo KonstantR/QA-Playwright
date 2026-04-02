@@ -1,9 +1,0 @@
-<Solution>
-  <Folder Name="/NewFolder1/" />
-  <Project Path="01.Vowels-Count/01.Vowels-Count.csproj" />
-  <Project Path="02.Factorial-Division/02.Factorial-Division.csproj" />
-  <Project Path="03.Multiplication-Sign/03.Multiplication-Sign.csproj" />
-  <Project Path="04.Password-Validator/04.Password-Validator.csproj" />
-  <Project Path="05.-Multiply-Evens-by-Odds/05.-Multiply-Evens-by-Odds.csproj" />
-  <Project Path="06.Orders/06.Orders.csproj" />
-</Solution>

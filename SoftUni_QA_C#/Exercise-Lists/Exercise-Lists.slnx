@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="01.Train/01.Train.csproj" />
-  <Project Path="2.House-Party/2.House-Party.csproj" />
-  <Project Path="3.List-Operations/3.List-Operations.csproj" />
-  <Project Path="4.List-Manipulation-Basics/4.List-Manipulation-Basics.csproj" />
-  <Project Path="5.Bomb-Numbers/5.Bomb-Numbers.csproj" />
-</Solution>
