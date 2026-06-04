@@ -1,0 +1,152 @@
+.nav-holder{
+    display: flex;
+    justify-content:space-between;
+}
+li{
+    list-style: none;
+}
+.nav-list{
+    display: flex;
+    gap: 1rem;
+}
+.name-holder{
+    display:flex;
+    flex-direction: column;
+}
+.name-holder h1{
+    margin:0;
+}
+.name-holder p{
+    margin:0;
+}
+h1{
+    color:blueviolet;
+}
+.name-holder p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-holder{
+    width: 50%;
+}
+.img-holder{
+    width: 50%;
+}
+.img-holder img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.about-us{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.about-us article{
+   
+    width:30%;
+    text-align: center;
+}
+.about-us article img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(104, 97, 97);
+} 
+h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(184, 181, 188, 0.888);
+    width: 120px;
+    margin:auto;
+}
+.site-footer {
+    background: #1f1f2e;
+    color: #ffffff;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+.site-footer section {
+    flex: 1;
+    min-width: 220px;
+}
+.footer-brand h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #a855f7;
+}
+.footer-brand p {
+    line-height: 1.6;
+    color: #cfcfe6;
+}
+.footer-sitemap h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.sitemap-links {
+    display: flex;
+    gap: 40px;
+}
+
+.sitemap-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap-links li {
+    margin-bottom: 10px;
+}
+
+.sitemap-links a {
+    text-decoration: none;
+    color: #cfcfe6;
+    transition: 0.3s;
+}
+.sitemap-links a:hover {
+    color: #a855f7;
+}
+.footer-contacts h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #cfcfe6;
+}
+@media (max-width: 768px) {
+    .site-footer {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .sitemap-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
